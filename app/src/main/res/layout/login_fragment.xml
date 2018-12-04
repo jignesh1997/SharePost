@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:background="@color/lightpink"
+    tools:context=".ui.authentication.fragment.Login">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="68dp"
+
+        android:src="@drawable/sharelogo"
+        android:id="@+id/ImageViewLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/TextInputPhone"
+        style="@style/InputTextLayoutStyle"
+        android:hint="@string/phoneHint"
+        app:layout_constraintTop_toBottomOf="@+id/ImageViewLogo"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:inputType="phone"
+
+            android:layout_height="match_parent" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/text_input_password_toggle"
+        style="@style/InputTextLayoutStyle"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorAccent"
+         android:hint="Password"
+        app:layout_constraintTop_toBottomOf="@+id/TextInputPhone"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:layout_height="match_parent" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "895718884792",
+    "firebase_url": "https://sharepost-cd5cf.firebaseio.com",
+    "project_id": "sharepost-cd5cf",
+    "storage_bucket": "sharepost-cd5cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895718884792:android:3c35fae5fc440a4a",
+        "android_client_info": {
+          "package_name": "com.example.jignesh.sharepost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895718884792-5ce7rdl47vipfjca661obkciq4kpg7rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3iqRgwznlQn74VggozxQC_5YZMUnjkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
